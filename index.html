@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">AI-Powered Dictionary</h1>
+        <input type="text" id="searchInput" placeholder="Search a word..." autofocus>
+        <button id="voiceSearch"><i class="fas fa-microphone"></i></button>
+        <p class="info-text" id="info-text">Type a word and press Enter</p>
+
+        <div class="meaning-container" id="meaning-container">
+            <h2>Word: <span id="title">______</span></h2>
+            <p><strong>Definition:</strong> <span id="definition">______</span></p>
+            <p><strong>Synonyms:</strong> <span id="synonyms">______</span></p>
+            <p><strong>Antonyms:</strong> <span id="antonyms">______</span></p>
+            <p><strong>Example:</strong> <span id="example">______</span></p>
+            <audio controls id="audio"></audio>
+        </div>
+
+        <div class="daily-word">
+            <h3>🌟 Word of the Day: <span id="wordOfDay">______</span></h3>
+        </div>
+    </div>
+</body>
+</html>
